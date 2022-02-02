@@ -131,6 +131,11 @@ img:hover{
     object-fit:cover;
 }
 
+.container img:nth-child(odd){
+    border: dashed #FAE790 5px;
+    border-radius: 10px;
+}
+
 footer{
     background-color:#188040;
     padding:15px;
